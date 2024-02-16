@@ -1,0 +1,115 @@
+
+<!-- idea - have an email set for this website to send messages to my professional email -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="index_styles.css">
+    <script src="https://kit.fontawesome.com/37e136a546.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+     <!-- Navbar section -->
+     <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fa-solid fa-ghost"></i>&nbsp&nbspYUMIIHE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/faq.html" class="navbar__links">FAQ</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/projects.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/illustrations.html" class="navbar__links">Illustrations</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/commissions.html" class="button">Commissions</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/contact.html" class="navbar__links">Contact</a>
+                </li>
+            </ul>
+        </div>
+   </nav>
+
+   <!-- page banner section -->
+   <div class="contact-banner">
+    <div class="contact-banner__container">
+        <div class="contact-banner__text">
+            <h1>Contact Me!</h1>
+        </div>
+        <div class="contact-banner__nav">
+            <li class="contact-banner__item">
+                <a href="https://www.instagram.com/yumiihe/" class="contact-banner__links" target="_blank">Instagram</a>
+            </li>
+            <li class="contact-banner__item">
+                <a href="https://twitter.com/Yumiihe" class="contact-banner__links" target="_blank">Twitter</a>
+            </li>
+            <li class="contact-banner__item">
+                <a href="https://www.pixiv.net/en/users/70441646" class="contact-banner__links" target="_blank">Pixiv</a>
+            </li>
+            <li class="contact-banner__item">
+                <a href="https://medibang.com/u/yumiihe/" class="contact-banner__links" target="_blank">ARTStreet</a>
+            </li>
+            <li class="contact-banner__item">
+                <a href="https://www.artfol.co/yumiihe" class="contact-banner__links" target="_blank">ArtFol</a>
+            </li>
+            <li class="contact-banner__item">
+                <a href="https://www.tumblr.com/yumiihe" class="contact-banner__links" target="_blank">Tumblr</a>
+            </li>
+        </div>
+    </div>
+   </div>
+
+   <!-- Sending mesages via email section -->
+   <div class="contact-me">
+    <div class="email__container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h2> ☆ GET IN TOUCH</h2>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="email@example.com" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+   </div>
+
+   <!-- footer section  -->
+   <div class="footer">
+    <div class="footer__container"> 
+        <a href="/" id="footer__logo"><i class="fa-solid fa-ghost"></i>&nbsp&nbspYUMIIHE</a>
+        <div class="footer__socials">
+            <ul class="footer__icons">
+                <li class="footer__icons">
+                    <a href="https://www.instagram.com/yumiihe/" class="fa-brands fa-instagram" target="_blank"></a>
+                </li>
+                <li class="footer__icons">
+                    <a href="https://twitter.com/Yumiihe" class="fa-brands fa-x-twitter" target="_blank"></a>
+                </li>
+                <li class="footer__icons">
+                    <a href="https://www.pixiv.net/en/users/70441646" class="fa-brands fa-pixiv" target="_blank"></a>
+                </li>
+                <li class="footer__icons">
+                    <a href="mailto:yoshiiteo@gmail.com" class="fa-regular fa-envelope" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </div>
+
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script src="contact.js"></script>
+</body>
+</html>

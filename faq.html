@@ -1,0 +1,149 @@
+
+<!-- !!! CHANGE OUT STYLESHEET -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="index_styles.css">
+    <script src="https://kit.fontawesome.com/37e136a546.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- Navbar section -->
+     <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fa-solid fa-ghost"></i>&nbsp&nbspYUMIIHE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/faq.html" class="navbar__links">FAQ</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/projects.html" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/illustrations.html" class="navbar__links">Illustrations</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/commissions.html" class="button">Commissions</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/contact.html" class="navbar__links">Contact</a>
+                </li>
+            </ul>
+        </div>
+   </nav>
+
+   <!-- page banner section -->
+   <div class="faq-banner">
+    <div class="faq-banner__container">
+        <div class="faq-banner__text">
+            <h1>ABOUT ME</h1>
+        </div>
+        <div class="faq-banner__nav">
+            <li class="faq-banner__item">
+                <a href="#tools-software" class="faq-banner__links">Tools & Software</a>
+            </li>
+            <li class="faq-banner__item">
+                <a href="#me" class="faq-banner__links">About Me!</a>
+            </li>
+        </div>
+    </div>
+   </div>
+
+   <div class="questions__container">
+        <!-- tools & software section -->
+        <div class="tools-software" id="tools-software">
+            <div class="tools-deco__container">
+                <img src="images/faq_images/pixel-icon-questionMark.png">
+            </div>
+            <div class="tools-software__container">
+                <h2>Questions?</h2>
+                <div class="qna">
+                    <div class="question-header">
+                        <div class="question" onclick="toggleAnswer('t-answer2')">What tablet do you use</div>
+                    </div>
+                    <div class="answer" id="t-answer2">Gaomon PD 1360 or something like that idk</div>
+                </div>
+                <div class="qna">
+                    <div class="question-header">
+                        <div class="question" onclick="toggleAnswer('t-answer1')">What software do you use?</div>
+                    </div>
+                    <div class="answer" id="t-answer1">Clip Studio Paint insert more deatiled stuff</div>
+                </div>
+                <div class="qna">
+                    <div class="question-header">
+                        <div class="question" onclick="toggleAnswer('t-answer3')">What brushes?</div>
+                    </div>
+                    <div class="answer" id="t-answer3"> square brush meltea or something brush uhmmmm insert some links(?)
+                        to the brushes if I can do that
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Me section -->
+        <div class="me" id="me">
+            <div class="me-deco__container">
+                <img src="images/faq_images/pixel-icon.png">
+            </div>
+            <div class="stars-deco">
+                <img src="images/faq_images/stars.png" style="width: 65%">
+            </div>
+            <div class="me__container">
+                <div class="qna">
+                    <div class="question" onclick="toggleAnswer('me-answer1')">Who am i?</div>
+                    <div class="answer" id="me-answer1">idk I'm 18 years old and I like to draw but I'm studting software engineering?</div>
+                </div>
+                <div class="qna">
+                    <div class="question" onclick="toggleAnswer('me-answer2')">What are my artistic inspirations?</div>
+                    <div class="answer" id="me-answer2">insert something there idk my delusions?</div>
+                </div>
+                <div class="qna">
+                    <div class="question" onclick="toggleAnswer('me-answer3')">Artists I take inspiration from?</div>
+                    <div class="answer" id="me-answer3">inserts artists here and their links</div>
+                </div>
+                <div class="qna">
+                    <div class="question" onclick="toggleAnswer('me-answer4')">How did I start drawing?</div>
+                    <div class="answer" id="me-answer4">idk i just did it</div>
+                </div>
+            </div>
+        </div>
+
+   </div>
+
+   <!-- footer section  -->
+   <div class="footer">
+    <div class="footer__container"> 
+        <a href="/" id="footer__logo"><i class="fa-solid fa-ghost"></i>&nbsp&nbspYUMIIHE</a>
+        <div class="footer__socials">
+            <ul class="footer__icons">
+                <li class="footer__icons">
+                    <a href="https://www.instagram.com/yumiihe/" class="fa-brands fa-instagram" target="_blank"></a>
+                </li>
+                <li class="footer__icons">
+                    <a href="https://twitter.com/Yumiihe" class="fa-brands fa-x-twitter" target="_blank"></a>
+                </li>
+                <li class="footer__icons">
+                    <a href="https://www.pixiv.net/en/users/70441646" class="fa-brands fa-pixiv" target="_blank"></a>
+                </li>
+                <li class="footer__icons">
+                    <a href="mailto:yoshiiteo@gmail.com" class="fa-regular fa-envelope" target="_blank"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </div>
+
+   <script src="faq.js"></script>
+</body>
+</html>
