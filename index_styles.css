@@ -942,7 +942,7 @@ height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/images/Dada-Mountains-Cropped.png);
+    background-image: url("images/Dada-Mountains-Cropped.png");
     background-size: cover;
     -webkit-animation: AnimateBG 10s ease-in-out infinite;
             animation: AnimateBG 10s ease-in-out infinite;
@@ -1285,7 +1285,7 @@ height: 80px;
 
   .project-banner{
     height: 45vh;
-    background-image: url(/images/projects_images/projects-header.png);
+    background-image: url("images/projects_images/projects-header.png");
     background-size: cover;
     width: 100%;
     cursor: default;
@@ -1874,7 +1874,7 @@ height: 80px;
     .faq-banner{
         height: 45vh;
         cursor: default;
-        background-image: url(/images/faq_images/dada-lwa-cropped.png);
+        background-image: url("images/faq_images/dada-lwa-cropped.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: -350px;
@@ -2063,7 +2063,7 @@ form button:hover{
 
 .contact-banner{
     height: 45vh;
-    background-image: url(/images/contact_images/contact-page-banner.png);
+    background-image: url("images/contact_images/contact-page-banner.png");
     background-size: cover;
     width: 100%;
     cursor: default;
